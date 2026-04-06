@@ -1,0 +1,27 @@
+UK TRAFFIC ACCIDENT — CLASSIFICATION RESULTS
+=======================================================
+
+Imbalance strategy: class_weight='balanced' (no SMOTE)
+Reason: label-encoded categoricals make SMOTE interpolation invalid
+
+Model                   Train Acc   Test Acc   F1-Macro
+-------------------------------------------------------
+Logistic Regression        0.5403     0.5408     0.3280
+Random Forest              0.6397     0.6259     0.4026
+XGBoost                    0.5944     0.5942     0.3743
+
+Best Model: Random Forest
+  Test Accuracy : 0.6259
+  F1-Macro      : 0.4026
+
+Features used:
+  - Speed_limit
+  - Number_of_Vehicles
+  - Vehicle_Manoeuvre
+  - Road_Type
+  - IsNight
+  - Urban_or_Rural_Area
+  - Sex_of_Driver
+  - Junction_Detail
+  - Age_Band_of_Driver
+  - Light_Conditions
