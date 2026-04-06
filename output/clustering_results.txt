@@ -1,0 +1,10 @@
+UK TRAFFIC ACCIDENT — CLUSTERING RESULTS
+=======================================================
+
+Method         Silhouette   Davies-Bouldin   Clusters
+-------------------------------------------------------
+K-Means            0.5224           0.6352          3
+DBSCAN       0.4920372478339428 0.3611300912434247          3
+
+DBSCAN noise points: 4 (0.0%)
+K-Means best_k selected: 3
