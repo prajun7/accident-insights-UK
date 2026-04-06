@@ -7,8 +7,8 @@ output/X_pca.csv
 output/X_lda.csv
 output/X_final.csv
 output/lat_lon.csv
-output/using_12_inputs_columns/X_pca.csv
-output/using_12_inputs_columns/X_lda.csv
-output/using_12_inputs_columns/y_final.csv
-output/using_12_inputs_columns/X_final.csv
-output/using_12_inputs_columns/lat_lon.csv
+output/feature_selection_v1/X_pca.csv
+output/feature_selection_v1/X_lda.csv
+output/feature_selection_v1/y_final.csv
+output/feature_selection_v1/X_final.csv
+output/feature_selection_v1/lat_lon.csv
