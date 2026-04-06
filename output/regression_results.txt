@@ -1,0 +1,15 @@
+UK TRAFFIC ACCIDENT — REGRESSION RESULTS
+==================================================
+
+Target variable: Number_of_Casualties
+
+Model                      RMSE      MAE       R²
+--------------------------------------------------
+Linear Regression        1.2815   0.9374   0.1334
+Random Forest            1.1513   0.8167   0.3005
+XGBoost                  1.2073   0.8633   0.2308
+
+Best Model: Random Forest
+  RMSE : 1.1513
+  MAE  : 0.8167
+  R²   : 0.3005
